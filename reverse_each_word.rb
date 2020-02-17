@@ -1,7 +1,8 @@
 def reverse_each_word(string)
   newarr = string.split
   newarr.collect do |i|
-    newstr = "#{i.reverse}"
+    newstr = []
+    newstr << "#{i.reverse}"
   end
   string = newstr.join
 end
