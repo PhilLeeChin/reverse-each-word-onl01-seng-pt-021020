@@ -4,4 +4,5 @@ def reverse_each_word(string)
     newstr = []
     newstr << "#{i.reverse}"
   end
+  newstr
 end
