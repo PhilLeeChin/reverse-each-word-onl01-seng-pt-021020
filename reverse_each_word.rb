@@ -3,4 +3,5 @@ def reverse_each_word(string)
   newarr.collect do |i|
     "#{i.reverse}"
   end
+  newarr.join
 end
