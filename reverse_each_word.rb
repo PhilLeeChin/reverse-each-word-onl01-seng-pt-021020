@@ -3,6 +3,6 @@ def reverse_each_word(string)
   newarr.collect do |i|
     newstr = []
     newstr << "#{i.reverse}"
+    newstr.join
   end
-  string = newstr.join
 end
